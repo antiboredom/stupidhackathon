@@ -6,10 +6,11 @@ body {
      -moz-background-size: 50% auto;
        -o-background-size: 50% auto;
           background-size: 50% auto;
-  background-image: url(two.jpg);
-  background-repeat: no-repeat;
+  background-image: url(snap2.jpg);
+  background-repeat: repeat-y;
   background-attachment: fixed;
   line-height: 150%;
+  background-position: left center;
 }
 
 #main {
@@ -80,7 +81,7 @@ a {
   width: 100%;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 800px) {
   #main { width: 100%; position: relative; left: 0;}
   body { background: none;}
 }
